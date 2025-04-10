@@ -128,6 +128,7 @@ Explore::Explore()
       [this]() { makePlan(); });
   // Start exploration right away
   //makePlan();
+  stop(false);
 }
 
 Explore::~Explore()
