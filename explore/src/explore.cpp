@@ -127,7 +127,7 @@ Explore::Explore()
       std::chrono::milliseconds((uint16_t)(1000.0 / planner_frequency_)),
       [this]() { makePlan(); });
   // Start exploration right away
-  makePlan();
+  //makePlan();
 }
 
 Explore::~Explore()
